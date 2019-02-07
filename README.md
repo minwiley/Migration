@@ -5,7 +5,7 @@ Melinda Wiley, Patricia Escalante, Yanjun Zhou, Sean Cooper, Caylon Thomas
 
 
 * brainstorming ideas - try for 2 idea each by Sat 09Feb19
-
+<br><br><br><br>
 
 De-Mystifying ML
 
@@ -49,16 +49,4 @@ Create an idea with “mock data” that simulates how machine learning might be
 
 Create an analysis of existing data to make a prediction, classification, or regression
 
-The key is to show the value of what you know.
-
-
-
-
-
-
-
-
-
-
-
-
+The key is to show the value of what you know.
