@@ -4,7 +4,7 @@
 Melinda Wiley, Patricia Escalante, Yanjun Zhou, Sean Cooper, Caylon Thomas
 
 
-* brainstorming ideas - try for 2 idea each by Sat 09Feb19
+* brainstorming ideas - try for 2 idea each by Sat 09Feb19<br>
 ![machine learning](https://user-images.githubusercontent.com/41865917/52417360-b70e6100-2ab9-11e9-8c4c-956de92052f9.png)
 
 <br><br><br><br>
