@@ -1,2 +1,4 @@
-# final_project
-machine learning final project
+# Final Project
+## Machine Learning
+
+* brainstorming ideas
