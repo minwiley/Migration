@@ -4,7 +4,7 @@
 ### Authors: Melinda Wiley, Patricia Escalante, Yanjun Zhou, Sean Cooper, Caylon Thomas
 ### 23 February 2019
 <br>
-![machine learning](https://user-images.githubusercontent.com/41865917/52417360-b70e6100-2ab9-11e9-8c4c-956de92052f9.png)
+
 
 
 
