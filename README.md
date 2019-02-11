@@ -2,15 +2,9 @@
 
 Melinda Wiley, Patricia Escalante, Yanjun Zhou, Sean Cooper, Caylon Thomas
 <br>
-<br>
-* brainstorming ideas - try for 2 idea each by Sat 09Feb19<br>
 ![machine learning](https://user-images.githubusercontent.com/41865917/52417360-b70e6100-2ab9-11e9-8c4c-956de92052f9.png)
 
 <br><br>
-
-
-
-
 
 Project Final: Refugee Employment Success in the United States, a machine learning model. Success is subjective. We will measure success in this instance by Employment. We will attempt to predict and measure job employment success in refugees seeking asylum in the United States over a period of time (TBD). <br>
 
@@ -65,20 +59,14 @@ You must use at least two of the below
 * Amazon AWS
 * Tableau
 
-Prepare a 15 minute “data deep dive” or “infrastructure walkthrough” that shows machine learning the context of what we’ve already learned.
+<br>
 
-Example Projects:
-Create a Front-End Interface that Maps to an API to “Smarten” the Algorithm
-Perform a Deep Dive of Existing Data Using Machine Learning 
-Create a Visualization that Continues to “Learn” Where Clusters Lie Based on ML (Use D3 or Plotly to Change the Visualization)
-Create an idea with “mock data” that simulates how machine learning might be used
-Create an analysis of existing data to make a prediction, classification, or regression
-The key is to show the value of what you know.
+Prepare a 15 minute “data deep dive” or “infrastructure walkthrough” that shows machine learning the context of what we’ve already learned.<br>
 
-
-
-
-
-
-
-
+Example Projects:<br>
+Create a Front-End Interface that Maps to an API to “Smarten” the Algorithm<br>
+Perform a Deep Dive of Existing Data Using Machine Learning <br>
+Create a Visualization that Continues to “Learn” Where Clusters Lie Based on ML (Use D3 or Plotly to Change the Visualization)<br>
+Create an idea with “mock data” that simulates how machine learning might be used<br>
+Create an analysis of existing data to make a prediction, classification, or regression<br>
+The key is to show the value of what you know.<br>
