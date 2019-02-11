@@ -4,7 +4,7 @@ Melinda Wiley, Patricia Escalante, Yanjun Zhou, Sean Cooper, Caylon Thomas
 <br>
 ![machine learning](https://user-images.githubusercontent.com/41865917/52417360-b70e6100-2ab9-11e9-8c4c-956de92052f9.png)
 
-<br><br>
+
 
 Project Final: Refugee Employment Success in the United States, a machine learning model. Success is subjective. We will measure success in this instance by Employment. We will attempt to predict and measure job employment success in refugees seeking asylum in the United States over a period of time (TBD). <br>
 
