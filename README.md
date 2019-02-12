@@ -1,4 +1,4 @@
-# Project Final: Refugee Employment Success in the United States
+# Project Final: Migration
 ![machine learning](https://user-images.githubusercontent.com/41865917/52597648-86178e80-2e21-11e9-8534-a108582ca2da.png)
 
 ### GW Data Analytics and Data Visualization Boot Camp, Instructor: Dan Wood
@@ -6,38 +6,77 @@
 ### 23 February 2019
 <br>
 
+#### Project Final: Migration statistics in the United States, a machine learning model. Utilizing Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub<br>
 
+Based on certain characteristics we will determine the likelihood of employment for an immigrant.<br>
 
+We will attempt to solve, analyze, and visualize migration over a period of time. This project will use machine learning technology, most likely Sci-Kit Learn. Additionally, we may use Python Pandas, Python Tweepy, HTML/CSS/Bootstrap, Javascript D3.js, MySQL Database, and Tableau to analyze and visualize this topic. We will work with high level datasets and mock data to simulate how machine learning is used; and create an analysis of this data to make a prediction and/or a regression. <br>
 
-#### Project Final: Refugee Employment Success in the United States, a machine learning model. Success is subjective. We will measure success in this instance by Employment. We will attempt to predict and measure job employment success in refugees seeking asylum in the United States over a period of time (TBD). <br>
+All: data cleaning <br>
+	Y employment <br>
+X everything else, All indicators<br>
 
-Can we predict success of a refugee? When success is measured by employment? <br>
-
-We will attempt to solve, analyze, and visualize refugee employment success in the United States over a period of time. This project will use machine learning technology, most likely Sci-Kit Learn. Additionally, we may use Python Pandas, Python Tweepy, HTML/CSS/Bootstrap, Javascript D3.js, MySQL Database, and Tableau to analyze and visualize this topic. We will work with high level datasets and mock data to simulate how machine learning is used; and create an analysis of this data to make a prediction and/or a regression. <br>
-
-Initial research shows the data is not quite there for this proposal. Our team will utilize mock data. High level datasets from the census, uhhrc will be utilized to mold the mock data.<br>
-
-Need to determine size of the mock data set. <br>
-
-All: find data: origin country, asylum state or country, employment, language, skills, age, gender<br>
-All: data cleaning<br>
 All: analysis<br>
-
 Yanjun: sentiment analysis at state or county level with tweepy. For or against?, visualization, ml<br>
 Patricia: machine learning model, visualization<br>
-Melinda: html, bubble chart visualization, ml<br>
+Melinda: html, bubble chart visualization, proposal, git repo, ml<br>
 Caylon: mapping visualization, ml<br>
-Sean: mapping visualization, ml<br><br>
+Sean: mapping visualization, ml<br>
 
-Initially Resources:  <br>
-The refugee project: http://therefugeeproject.org/#/2017 <br>
-Algorithm improves integration of refugee: https://news.stanford.edu/2018/01/18/algorithm-improves-integration-refugees/ <br>
-American Community Survey: https://www.census.gov/acs/www/data/data-tables-and-tools/ <br>
-Refugee Processing Center: http://www.wrapsnet.org/admissions-and-arrivals/<br>
-Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub <br>
-UNHCR Refugee Data, Data on Uprooted Populations and Asylum Processing: https://www.kaggle.com/unitednations/refugee-data#resettlement.csv <br>
-Humanitarian Data Exchange: https://data.humdata.org <br>
+Resources: Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub <br>
 
+All: clean data; scrap every state<br>
+Data cleaning breakout: <br>
+1	CJ	Alabama - AL
+2	CJ	Alaska - AK
+3	CJ	Arizona - AZ
+4	CJ	Arkansas - AR
+5	CJ	California - CA
+6	CJ	Colorado - CO
+7	CJ	Connecticut - CT
+8	CJ	Delaware - DE
+9	CJ	Florida - FL
+10	CJ	Georgia - GA
+11	yz	Hawaii - HI
+12	yz	Idaho - ID
+13	yz	Illinois - IL
+14	yz	Indiana - IN
+15	yz	Iowa - IA
+16	yz	Kansas - KS
+17	yz	Kentucky - KY
+18	yz	Louisiana - LA
+19	yz	Maine - ME
+20	yz	Maryland - MD
+21	sc	Massachusetts - MA
+22	sc	Michigan - MI
+23	sc	Minnesota - MN
+24	sc	Mississippi - MS
+25	sc	Missouri - MO
+26	sc	Montana - MT
+27	sc	Nebraska - NE
+28	sc	Nevada - NV
+29	sc	New Hampshire - NH
+30	sc	New Jersey - NJ
+31	pe	New Mexico - NM
+32	pe	New York - NY
+33	pe	North Carolina - NC
+34	pe	North Dakota - ND
+35	pe	Ohio - OH
+36	pe	Oklahoma - OK
+37	pe	Oregon - OR
+38	pe	Pennsylvania - PA
+39	pe	Rhode Island - RI
+40	pe	South Carolina - SC
+41	mw	South Dakota - SD
+42	mw	Tennessee - TN
+43	mw	Texas - TX
+44	mw	Utah - UT
+45	mw	Vermont - VT
+46	mw	Virginia - VA
+47	mw	Washington - WA
+48	mw	West Virginia - WV
+49	mw	Wisconsin - WI
+50	mw	Wyoming - WY
 
 _____________________________________________________________________________________________________________________
 <br><br>
