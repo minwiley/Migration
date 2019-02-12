@@ -36,7 +36,8 @@ Data cleaning breakout: <br>
 7	CJ	Connecticut - CT
 8	CJ	Delaware - DE
 9	CJ	Florida - FL
-10	CJ	Georgia - GA<br>
+10	CJ	Georgia - GA
+<br><br>
 11	yz	Hawaii - HI
 12	yz	Idaho - ID
 13	yz	Illinois - IL
@@ -56,7 +57,8 @@ Data cleaning breakout: <br>
 27	sc	Nebraska - NE
 28	sc	Nevada - NV
 29	sc	New Hampshire - NH
-30	sc	New Jersey - NJ<br>
+30	sc	New Jersey - NJ
+<br><br>
 31	pe	New Mexico - NM
 32	pe	New York - NY
 33	pe	North Carolina - NC
@@ -66,7 +68,8 @@ Data cleaning breakout: <br>
 37	pe	Oregon - OR
 38	pe	Pennsylvania - PA
 39	pe	Rhode Island - RI
-40	pe	South Carolina - SC<br>
+40	pe	South Carolina - SC
+<br><br>
 41	mw	South Dakota - SD
 42	mw	Tennessee - TN
 43	mw	Texas - TX
@@ -76,7 +79,8 @@ Data cleaning breakout: <br>
 47	mw	Washington - WA
 48	mw	West Virginia - WV
 49	mw	Wisconsin - WI
-50	mw	Wyoming - WY<br>
+50	mw	Wyoming - WY
+<br><br>
 _____________________________________________________________________________________________________________________
 <br><br>
 
