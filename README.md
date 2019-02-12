@@ -82,7 +82,7 @@ Data cleaning breakout: <br>
 50	mw	Wyoming - WY
 <br><br>
 _____________________________________________________________________________________________________________________
-<br><br>
+<br>
 
 De-Mystifying ML
 Find a Problem worth Solving, Analyzing, or Visualizing
