@@ -80,6 +80,7 @@ Data cleaning breakout: <br>
 48	mw	West Virginia - WV
 49	mw	Wisconsin - WI
 50	mw	Wyoming - WY
+51	mw	DC
 <br><br>
 _____________________________________________________________________________________________________________________
 <br>
