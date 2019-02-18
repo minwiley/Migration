@@ -17,6 +17,7 @@ All: data cleaning <br>
 X everything else, All indicators<br>
 
 All: analysis<br>
+<img width="400" alt="top1" src="https://user-images.githubusercontent.com/41865917/52924931-df3d6180-32fc-11e9-9015-87a913884890.PNG"><br>
 Yanjun: sentiment analysis at state or county level with tweepy. For or against?, visualization, ml<br>
 Patricia: machine learning model, visualization<br>
 Melinda: html, bubble chart visualization, proposal, git repo, ml<br>
