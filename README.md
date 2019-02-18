@@ -20,6 +20,8 @@ All: analysis<br>
 Yanjun: sentiment analysis at state or county level with tweepy. For or against?, visualization, ml<br>
 Patricia: machine learning model, visualization<br>
 Melinda: html, bubble chart visualization, proposal, git repo, ml<br>
+![mindychartpic png](https://user-images.githubusercontent.com/41865917/52924876-a0a7a700-32fc-11e9-8ebb-d27963965cf9.jpg)
+
 Caylon: mapping visualization, ml<br>
 Sean: mapping visualization, ml<br>
 
