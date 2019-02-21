@@ -6,27 +6,25 @@
 ### 23 February 2019
 <br>
 
-#### Project Final: Migration statistics in the United States, a machine learning model. Utilizing Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub<br>
+#### Project Final: Migration statistics in the United States, a machine learning model. Utilizing Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub and United Nations: Population Division: International Migration http://www.un.org/en/development/desa/population/migration/data/index.shtml><br>
 
 Based on certain characteristics we will determine the likelihood of employment for an immigrant.<br>
 
-We will attempt to solve, analyze, and visualize migration over a period of time. This project will use machine learning technology, most likely Sci-Kit Learn. Additionally, we may use Python Pandas, Python Tweepy, HTML/CSS/Bootstrap, Javascript D3.js, MySQL Database, and Tableau to analyze and visualize this topic. We will work with high level datasets and mock data to simulate how machine learning is used; and create an analysis of this data to make a prediction and/or a regression. <br>
+We will attempt to analyze and visualize migration over a period of time. This project will use machine learning technology, most likely Sci-Kit Learn. <br> Additionally, we may use Python Pandas, Python Tweepy, HTML/CSS/Bootstrap, Javascript D3.js, MySQL Database, and Tableau to analyze and visualize this topic. <br>
 
 All: data cleaning <br>
-	Y employment <br>
-X everything else, All indicators<br>
-
 All: analysis<br>
 <img width="400" alt="top1" src="https://user-images.githubusercontent.com/41865917/52924931-df3d6180-32fc-11e9-9015-87a913884890.PNG"><br>
 Yanjun: sentiment analysis at state or county level with tweepy. For or against?, visualization, ml<br>
 Patricia: machine learning model, visualization<br>
+	Y employment <br>
+	X everything else, All indicators<br>
 Melinda: html, bubble chart visualization, proposal, git repo, ml<br>
 ![mindychartpic png](https://user-images.githubusercontent.com/41865917/52924876-a0a7a700-32fc-11e9-8ebb-d27963965cf9.jpg)
 
-Caylon: mapping visualization, ml<br>
-Sean: mapping visualization, ml<br>
+Caylon and Sean: mapping visualization, ml<br>
 
-Resources: Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub <br>
+Resources: Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub and United Nations: Population Division: International Migration http://www.un.org/en/development/desa/population/migration/data/index.shtml><br>
 
 All: clean data; scrap every state<br>
 Data cleaning breakout: <br>
