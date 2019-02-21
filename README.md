@@ -1,4 +1,4 @@
-# Project Final: Migration
+# Project Final: Migration Analysis
 ![machine learning](https://user-images.githubusercontent.com/41865917/52597648-86178e80-2e21-11e9-8534-a108582ca2da.png)
 
 ### GW Data Analytics and Data Visualization Boot Camp, Instructor: Dan Wood
