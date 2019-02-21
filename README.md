@@ -1,7 +1,7 @@
 # Project Final: Migration Analysis
 ![machine learning](https://user-images.githubusercontent.com/41865917/52597648-86178e80-2e21-11e9-8534-a108582ca2da.png)
 
-### GW Data Analytics and Data Visualization Boot Camp, Instructor: Dan Wood
+#### GW Data Analytics and Data Visualization Boot Camp, Instructor: Dan Wood
 ### Authors: Melinda Wiley, Patricia Escalante, Yanjun Zhou, Sean Cooper, Caylon Thomas
 ### 23 February 2019
 <br>
