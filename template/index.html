@@ -26,8 +26,6 @@
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
-
-
 	</head>
 	<body class="is-preload">
 
@@ -48,7 +46,6 @@
 					</ul>
 				</div>
 			</section>
-
 
 
 	<!-- One -->
@@ -81,7 +78,7 @@
 						<h2>Migration Bubble Chart</h2>
 					</header>
 					<p>Chart utiltizing UN data.<em>"International migrant stock: The 2017 revision
-					The dataset presents estimates of international migrant by age, sex and origin. Estimates are presented for 1990, 1995, 2000, 2005, 2010, 2015 and 2017 and are available for all countries and areas of the world. The estimates are based on official statistics on the foreign-born or the foreign population." </em><strong><a href="http://www.un.org/en/development/desa/population/migration/data/index.shtml">United Nations: Population Division: International Migration</a></strong>. United States by far has the largest immigrant population which is 15 percent of the total United States populatoin.</p>
+					The dataset presents estimates of international migrant by age, sex and origin. Estimates are presented for 1990, 1995, 2000, 2005, 2010, 2015 and 2017 and are available for all countries and areas of the world. The estimates are based on official statistics on the foreign-born or the foreign population." </em><strong><a href="http://www.un.org/en/development/desa/population/migration/data/index.shtml">United Nations: Population Division: International Migration</a></strong>. United States, by far, has the largest immigrant population which is 15 percent of the total United States populatoin. <br>The chart x axis = "migrant percent of total population" and y axis = "number of migrants", Bubble size = population, Grouping color by region</p>
 
 						<div>
 							<style>
@@ -167,7 +164,7 @@
 								  <div id="chart"></div>
 								  <div>
 								  	<script>
-								  		var margin = { top: 25, right: 25, bottom: 25, left: 100},
+								  		var margin = { top: 25, right: 25, bottom: 55, left: 100},
 									    width = 960 - margin.right,
 									    height = 550 - margin.top - margin.bottom;
 
@@ -209,7 +206,7 @@
 									    .attr("class", "x label")
 									    .attr("text-anchor", "end")
 									    .attr("x", width)
-									    .attr("y", height - 6)
+									    .attr("y", height + 40)
 									    .text("migrant percent of total population");
 
 									// Add a y-axis label.
@@ -236,7 +233,7 @@
 									  .direction('s')
 									  .html(function(d) {
 									    // return "<p><strong>" + d.name + "</strong></p><p><strong>migrant_pop: </strong>" + format(d.migrant_pop) + "</p>";
-									    return "<p><strong>" + d.name + "<br>" + "Region:" + d.region + "</strong><br><strong>migrant poplations: </strong>" + format(d.migrant_pop) + "</strong><br><strong>migrants % of total populatoin: </strong>"+format(d.migrant_percent_totalPop) + "</p>";
+									    return "<p><strong>" + d.name + "<br>" + "Region: " + d.region + "</strong><br><strong>migrant poplations: </strong>" + format(d.migrant_pop) + "</strong><br><strong>migrants % of total populatoin: </strong>"+format(d.migrant_percent_totalPop) + "</p>";
 									  })
 
 									// Various accessors that specify the four dimensions of data to visualize.
@@ -365,7 +362,7 @@
 								  </div>
 
 								<div>
-									<br><br><br>
+									<br>
 									<ul class="actions special">
 										<li><a href="#three" class="button scrolly">Discover Map</a></li>
 									</ul>
@@ -377,19 +374,20 @@
 			<section id="three" class="main style1">
 				<div class="container">
 					<div class="row gtr-150">
-						<div class="col-12 col-12-medium">
+						<div class="col-10 col-12-medium">
 							<header class="major">
 								<h2>Map</h2>
 							</header>
-							<p>A lacus vestibulum sed arcu non odio euismod. Feugiat in ante metus dictum at tempor commodo ullamcorper. Porttitor lacus luctus accumsan tortor posuere ac ut consequat semper. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Libero id faucibus nisl tincidunt eget nullam non nisi est. Nunc faucibus a pellentesque sit amet porttitor. Feugiat in fermentum posuere urna nec. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur. Sed turpis tincidunt id aliquet risus. Volutpat ac tincidunt vitae semper. Ut ornare lectus sit amet est placerat. Amet consectetur adipiscing elit duis. Elementum tempus egestas sed sed risus pretium quam vulputate. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc. Et egestas quis ipsum suspendisse. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Viverra orci sagittis eu volutpat odio facilisis mauris. Eget magna fermentum iaculis eu non diam phasellus vestibulum.</p>
+							<p>A lacus vestibulum sed arcu non odio euismod. Feugiat in ante metus dictum at tempor commodo ullamcorper. Porttitor lacus luctus accumsan tortor posuere ac ut consequat semper. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Libero id faucibus nisl tincidunt eget nullam non nisi est. Nunc faucibus a pellentesque sit amet porttitor. Feugiat in fermentum posuere urna nec. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur. Sed turpis tincidunt id aliquet risus.</p>
 						</div>
-						<div class="col-12 col-12-medium imp-medium">
-							<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
-
-						<!-- 	<div>tableau probably</div> -->
+						<div class="col-10 col-12-medium imp-medium">
+							<span class="image fit">
+								<a href="https://public.tableau.com/en-us/s/"><img src="images/globe.png" alt="" /></a>
+							</span>
 
 						</div>
 						<div>
+							
 							<ul class="actions special">
 								<li><a href="#four" class="button scrolly">Discover Analysis</a></li>
 							</ul>
@@ -416,8 +414,7 @@
 							<header class="major">
 								<h2>Twitter and Sentiment Analysis<br/> </h2>
 							</header>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo duis ut diam quam. Eu augue ut lectus arcu bibendum at varius vel. Non diam phasellus vestibulum lorem sed. Velit ut tortor pretium viverra suspendisse potenti. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. In vitae turpis massa sed elementum tempus egestas sed. Orci ac auctor augue mauris augue. Eget nunc lobortis mattis aliquam. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Quisque id diam vel quam elementum pulvinar etiam non. Faucibus ornare suspendisse sed nisi. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis. Dictum fusce ut placerat orci nulla pellentesque dignissim enim. Nisl vel pretium lectus quam id leo in. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Odio ut sem nulla pharetra diam sit amet nisl. Gravida arcu ac tortor dignissim convallis aenean et. Quis auctor elit sed vulputate mi sit amet mauris.</p>
-
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo duis ut diam quam. Eu augue ut lectus arcu bibendum at varius vel. Non diam phasellus vestibulum lorem sed. Velit ut tortor pretium viverra suspendisse potenti. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. In vitae turpis massa sed elementum tempus egestas sed. Orci ac auctor augue mauris augue. Eget nunc lobortis mattis aliquam.</p>
 
 							<div>
 								<ul class="actions special">
@@ -440,7 +437,7 @@
 					<p>Patricia and Yanjun: machine learning model, visualization based off of rhe MPI data.</p>
 					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/web-map.jpg" alt="" /></span>
 							<h3>summaries1</h3>
 							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
 			<!-- 				<ul class="actions special">
@@ -448,7 +445,7 @@
 							</ul> -->
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/web-map.jpg" alt="" /></span>
 							<h3>summaries2</h3>
 							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
 <!-- 							<ul class="actions special">
@@ -456,13 +453,16 @@
 							</ul> -->
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/web-map.jpg" alt="" /></span>
 							<h3>summaries 3</h3>
 							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							
+						</div>
+
 							<ul class="actions special">
 								<li><a href="#" class="button">back to the top</a></li>
 							</ul>
-						</div>
+
 					</div>
 				</div>
 			</section>
