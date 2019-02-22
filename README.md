@@ -1,29 +1,36 @@
-# Project Final: Migration
+# Project Final: Migration Analysis
 ![machine learning](https://user-images.githubusercontent.com/41865917/52597648-86178e80-2e21-11e9-8534-a108582ca2da.png)
 
-### GW Data Analytics and Data Visualization Boot Camp, Instructor: Dan Wood
+#### GW Data Analytics and Data Visualization Boot Camp, Instructor: Dan Wood
 ### Authors: Melinda Wiley, Patricia Escalante, Yanjun Zhou, Sean Cooper, Caylon Thomas
 ### 23 February 2019
 <br>
 
-#### Project Final: Migration statistics in the United States, a machine learning model. Utilizing Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub<br>
+#### Project Final: Migration statistics in the United States, a machine learning model. Utilizing Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub and United Nations: Population Division: International Migration http://www.un.org/en/development/desa/population/migration/data/index.shtml><br>
 
 Based on certain characteristics we will determine the likelihood of employment for an immigrant.<br>
 
-We will attempt to solve, analyze, and visualize migration over a period of time. This project will use machine learning technology, most likely Sci-Kit Learn. Additionally, we may use Python Pandas, Python Tweepy, HTML/CSS/Bootstrap, Javascript D3.js, MySQL Database, and Tableau to analyze and visualize this topic. We will work with high level datasets and mock data to simulate how machine learning is used; and create an analysis of this data to make a prediction and/or a regression. <br>
+We will attempt to analyze and visualize migration over a period of time. This project will use machine learning technology, most likely Sci-Kit Learn. <br> Additionally, we may use Python Pandas, Python Tweepy, HTML/CSS/Bootstrap, Javascript D3.js, MySQL Database, and Tableau to analyze and visualize this topic. <br>
 
 All: data cleaning <br>
-	Y employment <br>
-X everything else, All indicators<br>
-
 All: analysis<br>
+
+<img width="633" alt="top" src="https://user-images.githubusercontent.com/41865917/53183720-d92fd500-35c9-11e9-8071-fc3afc8949c6.PNG">
+
 Yanjun: sentiment analysis at state or county level with tweepy. For or against?, visualization, ml<br>
 Patricia: machine learning model, visualization<br>
-Melinda: html, bubble chart visualization, proposal, git repo, ml<br>
-Caylon: mapping visualization, ml<br>
-Sean: mapping visualization, ml<br>
+	Y employment <br>
+	X everything else, All indicators<br>
+	
+<img width="606" alt="analysis" src="https://user-images.githubusercontent.com/41865917/53183721-d9c86b80-35c9-11e9-9772-2376928dfb7d.PNG">
 
-Resources: Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub <br>
+Melinda: html, bubble chart visualization, proposal, git repo, ml<br>
+<img width="629" alt="chart" src="https://user-images.githubusercontent.com/41865917/53183717-d92fd500-35c9-11e9-8a84-fbf1f4e8afd4.PNG">
+
+Caylon and Sean: mapping visualization, ml<br>
+<img width="454" alt="map" src="https://user-images.githubusercontent.com/41865917/53183719-d92fd500-35c9-11e9-9896-413f1b55c210.PNG">
+
+Resources: Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub and United Nations: Population Division: International Migration http://www.un.org/en/development/desa/population/migration/data/index.shtml><br>
 
 All: clean data; scrap every state<br>
 Data cleaning breakout: <br>
