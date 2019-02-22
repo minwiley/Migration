@@ -1,0 +1,500 @@
+<!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>GW Data Final Migiration Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+<!-- 	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- 	   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
+
+
+	  <script src="http://d3js.org/d3.v3.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.3/d3-tip.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+	  <script src="everpolate.browserified.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+					<!-- <span class="icon major fa-cloud"></span> -->
+					<h1>Project Final: <strong><a href="https://github.com/minwiley/Migration.git">Migration Analysis</a></strong></h1><br/>
+					<h3>GW Data Analytics and Data Visualization Boot Camp, Instructor: Daniel Wood</h3>
+					<h3>Authors: Melinda Wiley, Patricia Escalante, Yanjun Zhou, Sean Cooper, Caylon Thomas</h3>
+					
+					<p>Project Final: Migration Analysis. Migration statistics in the United States, a machine learning model. Utilizing <strong><a href="https://www.migrationpolicy.org/programs/migration-data-hub">Migration Policy Institute, Migration Data Hub</a></strong>. Based on certain characteristics we will determine the likelihood of employment for an immigrant in the United States. We will attempt to analyze and visualize migration over a period of time. This project will use machine learning technology, most likely Sci-Kit Learn. <br> Additionally, we may use Python Pandas, Python Tweepy, HTML/CSS/Bootstrap, Javascript D3.js, MySQL Database, and Tableau to analyze and visualize this topic.</p><br>
+
+					<h4>Explore Down Below</h4>
+					
+					<ul class="actions special">
+						<li><a href="#one" class="button scrolly">Discover</a></li>
+					</ul>
+				</div>
+			</section>
+
+
+	<!-- One -->
+			<section id="one" class="main style1">
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-9 col-12-medium">
+							<header class="major">
+								<h2>Idea Development and Data</h2>
+							</header>
+							<p>Coming up with the final project idea was difficult to say the least. We all came up with great ideas but decided on Migration. Migration employment success in the United names. <br>
+							We used data scrapped from the MPI; Migration Policy Institute, Migration Data Hub and the UN database.
+							<br> <p>From the data <strong><a href="http://www.un.org/en/development/desa/population/migration/data/index.shtml"> United Nations: Department of Economic and Social Affairs. Population Division: International Migration</a></strong> was used in the bubble chart. The data from the <strong><a href="https://www.migrationpolicy.org/programs/migration-data-hub">Migration Policy Institute, Migration Data Hub</a></strong> was used for the Map and and Machine Learning Aspects. The Sentiment Analysis utilized Twitter data. </p>
+							Below discover the chart, map, and analysis.</p>
+							<ul class="actions special">
+								<li><a href="#two" class="button scrolly">Discover Chart</a></li>
+							</ul>
+						</div>
+						<div class="col-9 col-12-medium imp-medium">
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 special">
+				<div class="container">
+					<header class="major">
+						<h2>Migration Bubble Chart</h2>
+					</header>
+					<p>Chart utiltizing UN data.<em>"International migrant stock: The 2017 revision
+					The dataset presents estimates of international migrant by age, sex and origin. Estimates are presented for 1990, 1995, 2000, 2005, 2010, 2015 and 2017 and are available for all countries and areas of the world. The estimates are based on official statistics on the foreign-born or the foreign population." </em><strong><a href="http://www.un.org/en/development/desa/population/migration/data/index.shtml">United Nations: Population Division: International Migration</a></strong>. United States, by far, has the largest immigrant population which is 15 percent of the total United States populatoin. <br>The chart x axis = "migrant percent of total population" and y axis = "number of migrants", Bubble size = population, Grouping color by region</p>
+
+						<div>
+							<style>
+								#chart {
+								    font-family: "Helvetica Neue";
+								    margin-left: -20px;
+								    height: 506px;
+								}
+								.dot { stroke: #000; }
+								.axis path, .axis line {
+								    fill: none;
+								    stroke: #000;
+								    shape-rendering: crispEdges;
+								}
+								.year.label {
+								    font: 500 180px "Lucida Sans";
+								    fill: #ddd;
+								}
+								.overlay {
+								    fill: none;
+								    pointer-events: all;
+								    cursor: ew-resize;
+								}
+								  .d3-tip {
+								  font-family: "Helvetica Neue";
+								  line-height: 1;
+								  font-weight: bold;
+								  padding: 12px;
+								  background: rgba(0, 0, 0, 0.8);
+								  color: #fff;
+								  border-radius: 2px;
+								  pointer-events: none;
+								}
+
+								/* Creates a small triangle extender for the tooltip */
+								.d3-tip:after {
+								  box-sizing: border-box;
+								  display: inline;
+								  font-size: 10px;
+								  width: 100%;
+								  line-height: 1;
+								  color: rgba(0, 0, 0, 0.8);
+								  position: absolute;
+								  pointer-events: none;
+								}
+
+								/* Northward tooltips */
+								.d3-tip.n:after {
+								  content: "\25BC";
+								  margin: -1px 0 0 0;
+								  top: 100%;
+								  left: 0;
+								  text-align: center;
+								}
+
+								/* Eastward tooltips */
+								.d3-tip.e:after {
+								  content: "\25C0";
+								  margin: -4px 0 0 0;
+								  top: 50%;
+								  left: -8px;
+								}
+
+								/* Southward tooltips */
+								.d3-tip.s:after {
+								  content: "\25B2";
+								  margin: 0 0 1px 0;
+								  top: -8px;
+								  left: 0;
+								  text-align: center;
+								}
+
+								/* Westward tooltips */
+								.d3-tip.w:after {
+								  content: "\25B6";
+								  margin: -4px 0 0 -1px;
+								  top: 50%;
+								  left: 100%;
+								}
+								</style>
+
+								<div class="row">
+								  <div id="chart"></div>
+								  <div>
+								  	<script>
+								  		var margin = { top: 25, right: 25, bottom: 55, left: 100},
+									    width = 960 - margin.right,
+									    height = 550 - margin.top - margin.bottom;
+
+									// var margin = { top: 25, right: 25, bottom: 25, left: 75}, 
+									//   width = svgWidth - margin.left - margin.right,
+									//   height = svgHeight - margin.top - margin.bottom;
+
+
+									// Various scales. These domains make assumptions of data, naturally.
+									var xScale = d3.scale.log().domain([0.01, 100]).range([0, width]),
+									    yScale = d3.scale.linear().domain([1,5e7]).range([height, 0]),
+									    radiusScale = d3.scale.sqrt().domain([0, 1e8]).range([0,70]),
+									    colorScale = d3.scale.category10();
+
+									// The x & y axes.
+									var xAxis = d3.svg.axis().scale(xScale).orient("bottom").ticks(10, d3.format(",d"));
+									var yAxis = d3.svg.axis().scale(yScale).orient("left");
+
+									// Create the SVG container and set the origin.
+									var svg = d3.select("#chart").append("svg")
+									    .attr("width", width + margin.left + margin.right)
+									    .attr("height", height + margin.top + margin.bottom)
+									  .append("g")
+									    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+									// Add the x-axis.
+									svg.append("g")
+									    .attr("class", "x axis")
+									    .attr("transform", "translate(0," + height + ")")
+									    .call(xAxis);
+
+									// Add the y-axis.
+									svg.append("g")
+									    .attr("class", "y axis")
+									    .call(yAxis);
+
+									// Add an x-axis label.
+									svg.append("text")
+									    .attr("class", "x label")
+									    .attr("text-anchor", "end")
+									    .attr("x", width)
+									    .attr("y", height + 40)
+									    .text("migrant percent of total population");
+
+									// Add a y-axis label.
+									svg.append("text")
+									    .attr("class", "y label")
+									    .attr("text-anchor", "end")
+									    .attr("y", 6)
+									    .attr("dy", ".75em")
+									    .attr("transform", "rotate(-90)")
+									    .text("number of migrants");
+
+									// Add the year label; the value is set on transition.
+									var label = svg.append("text")
+									    .attr("class", "year label")
+									    .attr("text-anchor", "end")
+									    .attr("y", height - (350))
+									    .attr("x", width - (450))    
+									    // .attr("y", height - (svgHeight - 300))
+									    // .attr("x", width - (svgWidth - 600))
+									    .text(1990);
+									 var format = d3.format(".2s");
+									var tip = d3.tip()
+									  .attr('class', 'd3-tip')
+									  .direction('s')
+									  .html(function(d) {
+									    // return "<p><strong>" + d.name + "</strong></p><p><strong>migrant_pop: </strong>" + format(d.migrant_pop) + "</p>";
+									    return "<p><strong>" + d.name + "<br>" + "Region: " + d.region + "</strong><br><strong>migrant poplations: </strong>" + format(d.migrant_pop) + "</strong><br><strong>migrants % of total populatoin: </strong>"+format(d.migrant_percent_totalPop) + "</p>";
+									  })
+
+									// Various accessors that specify the four dimensions of data to visualize.
+									function x(d) { return d.migrant_percent_totalPop; }
+									function y(d) { return d.migrant_pop; }
+									function radius(d) { return d.migrant_pop; }
+									function color(d) { return d.region; }
+									function key(d) { return d.name; }
+
+									$.getJSON( "dataun.json", function( data ) {
+									     var bisect = d3.bisector(function(d) { return d[0]; });
+
+									    // console.log(data); //json output 
+
+									    // Add a dot per giardia. Initialize the data at 1990, and set the colors.
+									    var dot = svg.append("g")
+									        .call(tip)
+									        .attr("class", "dots")
+									      .selectAll(".dot")
+									        .data(interpolateData(1990))
+									      .enter().append("circle")
+									        .on('mouseover', tip.show)
+									        .on('mouseout', tip.hide)
+									        .attr("class", function (d) { return "dot " + d.name; })
+									        .style("fill", function(d) { return colorScale(color(d)); })
+									        .call(position)
+									        .sort(order);
+									  
+									    // Add an overlay for the year label.
+									    var box = label.node().getBBox();
+
+									    var overlay = svg.append("rect")
+									        .attr("class", "overlay")
+									        .attr("x", box.x)
+									        .attr("y", box.y)
+									        .attr("width", box.width)
+									        .attr("height", box.height)
+									        .on("mouseover", enableInteraction);
+									  
+									    // Start a transition that interpolates the data based on year.
+									    svg.transition()
+									        .duration(3000)
+									        .ease("linear")
+									        .tween("year", tweenYear)
+									        .each("end", enableInteraction);
+									  
+									    // Positions the dots based on data.
+									    function position(dot) {
+									        dot.attr("cx", function(d) { return xScale(x(d)); })
+									            .attr("cy", function(d) { return yScale(y(d)); })
+									            .attr("r", function(d) { return radiusScale(radius(d)); });
+									        }
+									  
+									    // Defines a sort order so that the smallest dots are drawn on top.
+									    function order(a, b) { return radius(b) - radius(a); }
+									  
+									    // After the transition finishes, you can mouseover to change the year.
+									    function enableInteraction() {
+									        var yearScale = d3.scale.linear()
+									          .domain([1990, 2017])
+									          .range([box.x + 10, box.x + box.width - 10])
+									          .clamp(true);
+
+									        // Cancel the current transition, if any.
+									        svg.transition().duration(0);
+
+									        overlay
+									            .on("mouseover", mouseover)
+									            .on("mouseout", mouseout)
+									            .on("mousemove", mousemove)
+									            .on("touchmove", mousemove);
+
+									        function mouseover() { label.classed("active", true); }
+									        function mouseout() { label.classed("active", false); }
+									        function mousemove() { displayYear(yearScale.invert(d3.mouse(this)[0])); }
+									    }
+
+									    // Tweens the entire chart by first tweening the year, and then the data.
+									    // For the interpolated data, the dots and label are redrawn.
+									    function tweenYear() {
+									        var year = d3.interpolateNumber(1990, 2017);
+									        return function(t) { displayYear(year(t)); };
+									    }
+
+									    // Updates the display to show the specified year.
+									    function displayYear(year) {
+									        console.log(dot.data(interpolateData(year), key).call(position).sort(order))
+									        dot.data(interpolateData(year), key).call(position).sort(order);
+									        label.text(Math.round(year));
+									    }
+
+									    function interpolateData(year) {
+									        return data.map(function (d) {
+									            return {
+									                name: d.name,
+									                region : d.region,
+									                migrant_pop: interpolateValues(d.migrant_pop, year),
+									                migrant_percent_totalPop: interpolateValues(d.migrant_percent_totalPop, year)
+									                // perCapita: interpolateValues(d.perCapita, year)
+									            }; 
+									        });
+									    }
+
+									    // Finds (and possibly interpolates) the value for the specified year.
+									    function interpolateValues(values, year) {
+									        var i = bisect.left(values, year, 0, values.length - 1),
+									            a = values[i];
+									        if (i > 0) {
+									            var b = values[i - 1],
+									                t = (year - a[0]) / (b[0] - a[0]);
+									            return a[1] * (1 - t) + b[1] * t;
+									        }
+									      return a[1];
+									    }
+									});
+
+									function getWindowWidth() {
+									    var chartDiv = document.getElementById("chart");    
+									    var w = chartDiv.clientWidth;
+									    // console.log(w)
+									    return w;
+									  }
+	
+								  	</script>
+
+								  </div>
+
+								<div>
+									<br>
+									<ul class="actions special">
+										<li><a href="#three" class="button scrolly">Discover Map</a></li>
+									</ul>
+								</div>
+
+						</section>
+
+		<!-- Three -->
+			<section id="three" class="main style1">
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-10 col-12-medium">
+							<header class="major">
+								<h2>Map</h2>
+							</header>
+							<p>A lacus vestibulum sed arcu non odio euismod. Feugiat in ante metus dictum at tempor commodo ullamcorper. Porttitor lacus luctus accumsan tortor posuere ac ut consequat semper. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Libero id faucibus nisl tincidunt eget nullam non nisi est. Nunc faucibus a pellentesque sit amet porttitor. Feugiat in fermentum posuere urna nec. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur. Sed turpis tincidunt id aliquet risus.</p>
+						</div>
+						<div class="col-10 col-12-medium imp-medium">
+							<span class="image fit">
+								<a href="https://public.tableau.com/shared/4X2SXCTSK?:display_count=yes"><img src="images/foriegn_born_laborForce_state.png" alt="" /></a>
+							</span>
+
+						</div>
+						<div>
+							
+							<ul class="actions special">
+								<li><a href="#four" class="button scrolly">Discover Analysis</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Four -->
+			<section id="four" class="main style2">
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<ul class="major-icons">
+								<li><span class="icon style1 major fa-code"></span></li>
+								<li><span class="icon style2 major fa-bolt"></span></li>
+								<!-- <li><span class="icon style3 major fa-camera-retro"></span></li> -->
+								<li><span class="icon style4 major fa-cog"></span></li>
+								<!-- <li><span class="icon style5 major fa-desktop"></span></li> -->
+								<!-- <li><span class="icon style6 major fa-calendar"></span></li> -->
+							</ul>
+						</div>
+						<div class="col-6 col-12-medium">
+							<header class="major">
+								<h2>Twitter and Sentiment Analysis<br/> </h2>
+							</header>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo duis ut diam quam. Eu augue ut lectus arcu bibendum at varius vel. Non diam phasellus vestibulum lorem sed. Velit ut tortor pretium viverra suspendisse potenti. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. In vitae turpis massa sed elementum tempus egestas sed. Orci ac auctor augue mauris augue. Eget nunc lobortis mattis aliquam.</p>
+
+							<div>
+								<ul class="actions special">
+									<li><a href="#five" class="button scrolly">Discover More</a></li>
+								</ul>
+							</div>
+						
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- five -->
+			<section id="five" class="main style1 special">
+				<div class="container">
+					<header class="major">
+						<h2>If the above analysis needs to be broken into 2 bits <br>
+						Patricia and Yanjun Machine learning</h2>
+					</header>
+					<p>Patricia and Yanjun: machine learning model, visualization based off of rhe MPI data.</p>
+					<div class="row gtr-150">
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="images/web-map.jpg" alt="" /></span>
+							<h3>summaries1</h3>
+							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+			<!-- 				<ul class="actions special">
+								<li><a href="#" class="button">More</a></li>
+							</ul> -->
+						</div>
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="images/web-map.jpg" alt="" /></span>
+							<h3>summaries2</h3>
+							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+<!-- 							<ul class="actions special">
+								<li><a href="#" class="button">More</a></li>
+							</ul> -->
+						</div>
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="images/web-map.jpg" alt="" /></span>
+							<h3>summaries 3</h3>
+							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							
+						</div>
+
+							<ul class="actions special">
+								<li><a href="#" class="button">back to the top</a></li>
+							</ul>
+
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a href="https://github.com/minwiley" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://github.com/caylon-thomas" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://github.com/Yanjun7" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://github.com/scooper505" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://github.com/patesc" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+
+
+<!-- 					<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/scooper505" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="caylonthomas@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li> -->
+				</ul>
+				<ul class="copyright">
+					<li><a href="https://github.com/minwiley/Migration.git">our github repo</a></li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

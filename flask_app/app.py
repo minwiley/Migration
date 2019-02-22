@@ -13,10 +13,6 @@ from flask_sqlalchemy import SQLAlchemy
 #################################################
 app = Flask(__name__)
 
-# The database URI
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql://root:<password>localhost:3306/box_office_db"
-
-db = SQLAlchemy(app)
 
 
 
@@ -34,14 +30,14 @@ def home():
     return render_template("index.html")
 
 
-@app.route("/map1")
+@app.route("/data")
 def map1():
     return "Yooooo Checkout Our Map!"
 
 
-@app.route("/data_sources")
-def data_sources():
-    ## HTML page with data sources links
+# @app.route("/data_sources")
+# def data_sources():
+#     ## HTML page with data sources links
 
 
 if __name__ == '__main__':
