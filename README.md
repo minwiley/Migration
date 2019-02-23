@@ -24,10 +24,12 @@ Patricia: machine learning model, visualization<br>
 <img width="615" alt="analysis" src="https://user-images.githubusercontent.com/41865917/53280841-38d2d100-36ed-11e9-8b8d-c9fb2185616c.PNG">
 
 
-Melinda: html, bubble chart visualization, proposal, git repo, ml<br>
+Melinda: <p>Chart utiltizing UN data.<em>"International migrant stock: The 2017 revision
+					
+The dataset presents estimates of international migrant by age, sex and origin. Estimates are presented for 1990, 1995, 2000, 2005, 2010, 2015 and 2017 and are available for all countries and areas of the world. The estimates are based on official statistics on the foreign-born or the foreign population." </em><strong><a href="http://www.un.org/en/development/desa/population/migration/data/index.shtml">United Nations: Population Division: International Migration</a></strong>. United States, by far, has the largest immigrant population which is 15 percent of the total United States populatoin. <br>The chart x axis = "migrant percent of total population" and y axis = "number of migrants", Bubble size = population, Grouping color by region</p>
 <img width="629" alt="chart" src="https://user-images.githubusercontent.com/41865917/53183717-d92fd500-35c9-11e9-8a84-fbf1f4e8afd4.PNG">
 
-Sean and CJ: mapping visualization, ml<br>
+Sean: <p>The below chart uses data from migrationpolicy.org to show the percentage of the each state's citizen labor force that is foriegn born.</p><br>
 <img width="629" alt="map" src="https://user-images.githubusercontent.com/41865917/53280871-7d5e6c80-36ed-11e9-87ad-33e5ab071b44.PNG">
 
 Resources: Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub and United Nations: Population Division: International Migration http://www.un.org/en/development/desa/population/migration/data/index.shtml><br>
