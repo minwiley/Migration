@@ -28,7 +28,7 @@ Melinda: html, bubble chart visualization, proposal, git repo, ml<br>
 <img width="629" alt="chart" src="https://user-images.githubusercontent.com/41865917/53183717-d92fd500-35c9-11e9-8a84-fbf1f4e8afd4.PNG">
 
 Sean and CJ: mapping visualization, ml<br>
-<img width="475" alt="map" src="https://user-images.githubusercontent.com/41865917/53280840-38d2d100-36ed-11e9-8e07-5b1b5573fd35.PNG">
+<img width="629" alt="map" src="https://user-images.githubusercontent.com/41865917/53280871-7d5e6c80-36ed-11e9-87ad-33e5ab071b44.PNG">
 
 Resources: Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub and United Nations: Population Division: International Migration http://www.un.org/en/development/desa/population/migration/data/index.shtml><br>
 
