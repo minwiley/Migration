@@ -22,13 +22,14 @@ Patricia: machine learning model, visualization<br>
 	Y employment <br>
 	X everything else, All indicators<br>
 	
-<img width="606" alt="analysis" src="https://user-images.githubusercontent.com/41865917/53183721-d9c86b80-35c9-11e9-9772-2376928dfb7d.PNG">
+<img width="615" alt="analysis" src="https://user-images.githubusercontent.com/41865917/53280841-38d2d100-36ed-11e9-8b8d-c9fb2185616c.PNG">
+
 
 Melinda: html, bubble chart visualization, proposal, git repo, ml<br>
 <img width="629" alt="chart" src="https://user-images.githubusercontent.com/41865917/53183717-d92fd500-35c9-11e9-8a84-fbf1f4e8afd4.PNG">
 
-Caylon and Sean: mapping visualization, ml<br>
-<img width="454" alt="map" src="https://user-images.githubusercontent.com/41865917/53183719-d92fd500-35c9-11e9-9896-413f1b55c210.PNG">
+Sean and CJ: mapping visualization, ml<br>
+<img width="475" alt="map" src="https://user-images.githubusercontent.com/41865917/53280840-38d2d100-36ed-11e9-8e07-5b1b5573fd35.PNG">
 
 Resources: Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub and United Nations: Population Division: International Migration http://www.un.org/en/development/desa/population/migration/data/index.shtml><br>
 
