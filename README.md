@@ -4,7 +4,6 @@
 #### GW Data Analytics and Data Visualization Boot Camp, Instructor: Dan Wood
 ### Authors: Melinda Wiley, Patricia Escalante, Yanjun Zhou, Sean Cooper, Caylon Thomas
 ### 23 February 2019
-<br>
 
 #### Project Final: Migration statistics in the United States, a machine learning model. Utilizing Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub and United Nations: Population Division: International Migration http://www.un.org/en/development/desa/population/migration/data/index.shtml><br>
 
