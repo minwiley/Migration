@@ -8,7 +8,7 @@
 #### Project Final: Migration statistics in the United States, a machine learning model. Utilizing Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub and United Nations: Population Division: International Migration http://www.un.org/en/development/desa/population/migration/data/index.shtml><br>
 
 Based on certain characteristics we will determine the likelihood of employment for an immigrant.<br>
-
+The initial idea originated from <strong><a href="https://news.stanford.edu/2018/01/18/algorithm-improves-integration-refugees/"> Stanford scholars develop new algorithm to help resettle refugees and improve their integration. </a></strong> 
 We will attempt to analyze and visualize migration over a period of time. This project will use machine learning technology, most likely Sci-Kit Learn. <br> Additionally, we may use Python Pandas, Python Tweepy, HTML/CSS/Bootstrap, Javascript D3.js, MySQL Database, and Tableau to analyze and visualize this topic. <br>
 
 All: data cleaning <br>
