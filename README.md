@@ -4,12 +4,11 @@
 #### GW Data Analytics and Data Visualization Boot Camp, Instructor: Dan Wood
 ### Authors: Melinda Wiley, Patricia Escalante, Yanjun Zhou, Sean Cooper, Caylon Thomas
 ### 23 February 2019
-<br>
 
 #### Project Final: Migration statistics in the United States, a machine learning model. Utilizing Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub and United Nations: Population Division: International Migration http://www.un.org/en/development/desa/population/migration/data/index.shtml><br>
 
 Based on certain characteristics we will determine the likelihood of employment for an immigrant.<br>
-
+The initial idea originated from <strong><a href="https://news.stanford.edu/2018/01/18/algorithm-improves-integration-refugees/"> Stanford scholars develop new algorithm to help resettle refugees and improve their integration. </a></strong> 
 We will attempt to analyze and visualize migration over a period of time. This project will use machine learning technology, most likely Sci-Kit Learn. <br> Additionally, we may use Python Pandas, Python Tweepy, HTML/CSS/Bootstrap, Javascript D3.js, MySQL Database, and Tableau to analyze and visualize this topic. <br>
 
 All: data cleaning <br>
@@ -22,13 +21,16 @@ Patricia: machine learning model, visualization<br>
 	Y employment <br>
 	X everything else, All indicators<br>
 	
-<img width="606" alt="analysis" src="https://user-images.githubusercontent.com/41865917/53183721-d9c86b80-35c9-11e9-9772-2376928dfb7d.PNG">
+<img width="615" alt="analysis" src="https://user-images.githubusercontent.com/41865917/53280841-38d2d100-36ed-11e9-8b8d-c9fb2185616c.PNG">
 
-Melinda: html, bubble chart visualization, proposal, git repo, ml<br>
+
+Melinda: <p>Chart utiltizing UN data.<em>"International migrant stock: The 2017 revision
+					
+The dataset presents estimates of international migrant by age, sex and origin. Estimates are presented for 1990, 1995, 2000, 2005, 2010, 2015 and 2017 and are available for all countries and areas of the world. The estimates are based on official statistics on the foreign-born or the foreign population." </em><strong><a href="http://www.un.org/en/development/desa/population/migration/data/index.shtml">United Nations: Population Division: International Migration</a></strong>. United States, by far, has the largest immigrant population which is 15 percent of the total United States populatoin. <br>The chart x axis = "migrant percent of total population" and y axis = "number of migrants", Bubble size = population, Grouping color by region</p>
 <img width="629" alt="chart" src="https://user-images.githubusercontent.com/41865917/53183717-d92fd500-35c9-11e9-8a84-fbf1f4e8afd4.PNG">
 
-Caylon and Sean: mapping visualization, ml<br>
-<img width="454" alt="map" src="https://user-images.githubusercontent.com/41865917/53183719-d92fd500-35c9-11e9-9896-413f1b55c210.PNG">
+Sean: <p>The below chart uses data from migrationpolicy.org to show the percentage of the each state's citizen labor force that is foriegn born.</p><br>
+<img width="629" alt="map" src="https://user-images.githubusercontent.com/41865917/53280871-7d5e6c80-36ed-11e9-87ad-33e5ab071b44.PNG">
 
 Resources: Migration Policy Institute, Migration Data Hub: https://www.migrationpolicy.org/programs/migration-data-hub and United Nations: Population Division: International Migration http://www.un.org/en/development/desa/population/migration/data/index.shtml><br>
 
